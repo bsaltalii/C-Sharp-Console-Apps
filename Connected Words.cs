@@ -30,9 +30,7 @@ for (int i = 0; i < 1000; i++)
 //FINDING FIRST WORD
 int randomWordIndex = rnd.Next(0, 3000);
 string firstWord = newStringArray[randomWordIndex];
-builder.Append("First word : ");
-builder.Append(firstWord);
-builder.Append("\n");
+builder.Append("First word : "+firstWord+"\n");
 //END
 
 //SUBSTRACTING FIRST WORD'S LAST TWO LETTERS AND PROGRAMMING THE REST
