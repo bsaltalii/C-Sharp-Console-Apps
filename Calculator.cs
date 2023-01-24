@@ -1,8 +1,3 @@
-﻿//HOCAM ÖDEVDE DEĞERLERİ İNTEGER OLARAK ALIN DİYOR AMA
-//BÖLME İŞLEMİNDE DAHA DOĞRU CEVAP ALABİLMEK İÇİN (SONUCUN SIFIR ÇIKMASI GİBİ)
-//RESULT DEĞERİNİ DOUBLE VERİ TÜRÜNE ÇEVİRDİM.
-
-
 int firstİnteger, secondİnteger, operationType ;
 
 double result;
@@ -24,7 +19,6 @@ firstİnteger = int.Parse(Console.ReadLine());
 
 Console.Write("Enter second integer : ");
 secondİnteger = int.Parse(Console.ReadLine());
-
 
 switch (operationType)
 {
@@ -64,7 +58,4 @@ switch (operationType)
             Console.WriteLine(outputMessage +  "{0:F2}", result);
             break;
         }
-
-
-       
 }
