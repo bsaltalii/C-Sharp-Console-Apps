@@ -1,7 +1,3 @@
-﻿//HOCAM 0 PUAN VERECEĞİMİZ DURUMLAR İÇİN AYRI BİR CASE YAZMADIM.
-//PUANI ETKİLEMEYECEĞİ İÇİN KOD KALABALIĞI OLUR DİYE DÜŞÜNDÜM.
-//UMARIM DOĞRU DÜŞÜNMÜŞÜMDÜR.
-
 int ageInterval , cov19Symptoms, cov19TestResults, cov19History ,totalScore = 0;
 
 string outputMessage = "Total score of the assessment is : ";
